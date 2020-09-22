@@ -35,7 +35,7 @@ mathematical calculations to have the exact postion of the window to keep only 1
 
 # i3 config 
 
-You can add this t your `i3/config file` by adding this : 
+You can add this to your `i3/config file` by adding this : 
 > you can get the keyboards X event content by softwares like : [xev](https://jlk.fjfi.cvut.cz/arch/manpages/man/xev.1) (for example)
 ```
 # #---Windows-to-corner---# #
@@ -51,3 +51,5 @@ bindsym $mod+KP_Up    exec --no-startup-id ~/scripts/movetocorner 8
 bindsym $mod+KP_Prior exec --no-startup-id ~/scripts/movetocorner 9
 
 ```
+Note: In order for the above script to work, you'll have to first make the ``~/scripts/movetocorner.sh`` file executable. This
+could be done by running the following command: ``chmod +x ~/scripts/movetocorner.sh``
